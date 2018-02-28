@@ -1,3 +1,3 @@
 # oodpAssignment2
 
-[Image](oodpAssignment2.jpg)
+![alt text](OODPassignment2.jpg)
