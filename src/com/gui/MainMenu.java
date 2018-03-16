@@ -2,9 +2,12 @@ package com.gui;
 import java.awt.Container;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.ItemEvent;
+import java.awt.event.ItemListener;
 
 import javax.swing.ButtonGroup;
 import javax.swing.ImageIcon;
+import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
@@ -17,6 +20,7 @@ import com.command.cmdMenu;
 import com.command.firstTeamCommand;
 import com.command.juniorTeamCommand;
 import com.command.reserveTeamCommand;
+import com.composite.FixtureTree;
 
 public class MainMenu extends JFrame implements ActionListener {
 	
@@ -84,7 +88,9 @@ public class MainMenu extends JFrame implements ActionListener {
 	public JPanel buildLeftPanel() {
 		JPanel panel = null;
 		panel = new JPanel();
-				
+		JRadioButton btnFixtures = new JRadioButton("Fixtures");
+		btnFixtures.addItemListener(new FixtureListener());
+		panel.add(btnFixtures);
 		return panel;
 	}//end leftPanel
 
@@ -95,7 +101,13 @@ public class MainMenu extends JFrame implements ActionListener {
 		return panel;
 	}//end rightPanel
 	
-
+	public class FixtureListener implements ItemListener {
+	    public void itemStateChanged(ItemEvent e) {
+	        new FixtureTree();
+	        dispose();
+	    }//end IST
+	}//end listener
+	
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		CommandHolder obj = (CommandHolder)e.getSource();
