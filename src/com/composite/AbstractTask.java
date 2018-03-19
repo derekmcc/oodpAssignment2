@@ -18,7 +18,8 @@ public abstract class AbstractTask {
     public abstract Enumeration subordinates();
     public abstract Leaf getChild(String s);
     public abstract int getTotalFixtures();
+    
     public boolean isLeaf() {
         return leaf;
-    }
+    }//end isLeaf
 }//end class

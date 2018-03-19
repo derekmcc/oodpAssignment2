@@ -1,25 +1,27 @@
 package com.composite;
-import java.awt.*;
+
 import java.awt.event.*;
-import java.util.*;
-
-//swing classes
-import javax.swing.text.*;
+import com.gui.MainMenu;
+import com.singleton.Singleton;
 import javax.swing.*;
-import javax.swing.event.*;
-
 
 public class Windoze extends JFrame {
-   public Windoze(String title) {
-      super(title);
-      setCloseClick();
-      
-   }
-   private void setCloseClick() {
-      //create window listener to respond to window close click
-      addWindowListener(new WindowAdapter()
-       {
-	    public void windowClosing(WindowEvent e) {System.exit(0);}
-	    });
-   }
-}
+	Singleton s1;
+	
+	public Windoze(String title) {
+		super(title);
+		setCloseClick();
+	}//end constructor
+    
+	private void setCloseClick() {
+		//create window listener to respond to window close click
+		addWindowListener(new WindowAdapter() {
+			public void windowClosing(WindowEvent e) {
+				Object obj = new Object();
+				obj = null;
+				s1.setFixtureTree(obj);
+				new MainMenu();
+	    	}//end window closing
+	    });//end windowListener
+	}//end setCloseClick
+}//end class

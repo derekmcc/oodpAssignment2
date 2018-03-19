@@ -3,8 +3,7 @@ import java.util.Enumeration;
 import java.util.NoSuchElementException;
 import java.util.Vector;
 
-public class Composite extends Leaf{
-
+public class Composite extends Leaf {
 
 	Vector leaves;
 
@@ -12,39 +11,40 @@ public class Composite extends Leaf{
         super(name, numFixtures);
         leaf = false;
         leaves = new Vector();
-    }
+    }//end constructor
 
     public Composite(Leaf initParent, String initName, int initFixtures) {
         super(initParent, initName, initFixtures);
         leaf = false;
         leaves = new Vector();
-    }
+    }//end constructor
 
     public Composite(Leaf l) {
         super(l.getName (), l.getNumFixtures());
         leaves = new Vector();
         leaf = false;
-    }
+    }//end constructor
 
     public boolean add(Leaf l) throws NoSuchElementException {
     	leaves.add(l);
         return true;
-    }
+    }//end add method
 
     public void remove(Leaf l) throws NoSuchElementException {
     	leaves.removeElement(l);
-    }
+    }//end remove method
 
-    public Enumeration subordinates () {
+    public Enumeration subordinates() {
         return leaves.elements ();
-    }
+    }//end subordinates method
 
     public Leaf getChild(String s) throws NoSuchElementException {
 
         Leaf newLeaf = null;
 
-        if (getName().equals(s))
-            return this;
+        if (getName().equals(s)) {
+        	return this;
+        }//end if    
         else {
             boolean found = false;
             Enumeration e = subordinates();
@@ -54,24 +54,19 @@ public class Composite extends Leaf{
                 if (! found) {
                     if (! newLeaf.isLeaf ()) {
                         newLeaf = newLeaf.getChild(s);
-                    } else
+                    }//end inner if 
+                    else {
                         newLeaf = null;
+                    }//end else
                     found =(newLeaf != null);
-                }
-            }
-            if (found)
+                }//end if
+            }//end while
+            if (found) {
                 return newLeaf;
-            else
+            }//end if
+            else {
                 return null;
-        }
-    }
-
-    public int getTimes() {
-        int sum = numFixtures;
-        for (int i = 0; i < leaves.size(); i++) {
-            sum += ((Leaf)leaves.elementAt(i)).getTotalFixtures();
-        }
-        return sum;
-    }
-
-}
+            }//end inner else
+        }//end else
+    }//end getChild
+}//end class

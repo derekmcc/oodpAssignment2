@@ -11,26 +11,27 @@ import javax.swing.border.*;
 import javax.swing.tree.*;
 
 import com.gui.MainMenu;
+import com.singleton.Singleton;
 
 
 public class FixtureTree extends Windoze implements TreeSelectionListener {
-    Leaf fixtures, march, april, may;
-    Leaf league, faCup, ecl;
    
-
+	Leaf fixtures, march, april, may;
+    Leaf league, faCup, ecl;
     JScrollPane sp;
     JPanel treePanel;
     JTree tree;
     DefaultMutableTreeNode troot;
     JLabel cost;
     Container contentPane = getContentPane();
+    Singleton s1;
     
     public FixtureTree() {
         super("Fixture List");
         makeLeaves();
         setGUI();
         setLocationRelativeTo(null);
-    }
+    }//end constructor
     
     private void setGUI() {
         treePanel = new JPanel();
@@ -41,13 +42,18 @@ public class FixtureTree extends Windoze implements TreeSelectionListener {
         treePanel.add("Center", sp);
         treePanel.add("South", cost = new JLabel("          "));
         
-       // JButton btnBack = new JButton("Back");
-      
         treePanel.add("North",new JButton(new AbstractAction("Back To Main") {
             public void actionPerformed(ActionEvent e) {
+            	Object obj = new Object();
+    			obj = null;
+    			/************************************************************
+    			 * ---------- COMMENT OUT TO SHOW SINGLETON WORKING ---------
+    			 ************************************************************/
+    			s1.setFixtureTree(obj);
+    			/************************************************************/
                 new MainMenu();
                 dispose();
-            }
+            }//end inner class actionListener
         }));
         
         treePanel.setBorder(new BevelBorder(BevelBorder.RAISED));
@@ -59,7 +65,7 @@ public class FixtureTree extends Windoze implements TreeSelectionListener {
         sp.getViewport().add(tree);
         setSize(new Dimension(300, 350));
         setVisible(true);
-    }
+    }//end setGUI
     
     public void loadTree(Leaf root) {
         DefaultMutableTreeNode troot;
@@ -72,7 +78,7 @@ public class FixtureTree extends Windoze implements TreeSelectionListener {
         addNodes(troot, root);
         tree.expandRow(0);
         repaint();
-    }
+    }//end loadTree
 
     private void addNodes(DefaultMutableTreeNode pnode, Leaf l) {
         DefaultMutableTreeNode node;
@@ -84,9 +90,9 @@ public class FixtureTree extends Windoze implements TreeSelectionListener {
                 node = new DefaultMutableTreeNode(newLeaf.getName());
                 pnode.add(node);
                 addNodes(node, newLeaf);
-            }
-        }
-    }
+            }//end while
+        }//end if
+    }//end addNodes
 
     private void makeLeaves() {
         fixtures = new Composite("Fixture List", 11);
@@ -117,7 +123,7 @@ public class FixtureTree extends Windoze implements TreeSelectionListener {
         
         league.add(new Leaf("5th - Brighton",1));
         league.add(new Leaf("13th - Watford",1));  
-    }
+    }//end makeLeaves
 
     public void valueChanged(TreeSelectionEvent evt) {
         TreePath path = evt.getPath();
@@ -126,9 +132,5 @@ public class FixtureTree extends Windoze implements TreeSelectionListener {
         Leaf lea = fixtures.getChild(selectedTerm);
         if (lea != null)
             cost.setText(new Integer(lea.getTotalFixtures()).toString() + " Fixtures");
-    }
-
-    static public void main(String argv[]) {
-        new FixtureTree();
-    }
-}
+    }//end valueChanged
+}//end class
