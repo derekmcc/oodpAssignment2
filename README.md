@@ -2,4 +2,4 @@
 
 ##### OODP Assignment using 4 design patterns
 
-![alt text](OODPassignment2.jpg)
+![alt text](Assignment2UML.jpg)
