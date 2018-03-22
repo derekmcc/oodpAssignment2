@@ -25,12 +25,13 @@ public class FixtureTree extends Windoze implements TreeSelectionListener {
     JLabel cost;
     Container contentPane = getContentPane();
     Singleton s1;
+    int flag = 0;
     
     public FixtureTree() {
         super("Fixture List");
+        
         makeLeaves();
         setGUI();
-        setLocationRelativeTo(null);
     }//end constructor
     
     private void setGUI() {
@@ -44,15 +45,18 @@ public class FixtureTree extends Windoze implements TreeSelectionListener {
         
         treePanel.add("North",new JButton(new AbstractAction("Back To Main") {
             public void actionPerformed(ActionEvent e) {
-            	Object obj = new Object();
-    			obj = null;
-    			/************************************************************
-    			 * ---------- COMMENT OUT TO SHOW SINGLETON WORKING ---------
-    			 ************************************************************/
-    			s1.setFixtureTree(obj);
-    			/************************************************************/
-                new MainMenu();
-                dispose();
+            	flag++;
+            	if (flag == 1) {
+	            	Object obj = new Object();
+	    			obj = null;
+	    			/************************************************************
+	    			 * ---------- COMMENT OUT TO SHOW SINGLETON WORKING ---------
+	    			 ************************************************************/
+	    			//s1.setFixtureTree(obj);
+	    			/************************************************************/
+	                new MainMenu();
+	                //dispose();
+            	}//end if
             }//end inner class actionListener
         }));
         

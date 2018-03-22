@@ -3,7 +3,7 @@
   realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
   <class id="1" language="java" name="com.abstract_factory.FirstTeam" project="Assignment2" 
     file="/Assignment2/src/com/abstract_factory/FirstTeam.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="286" width="185" x="1453" y="1464"/>    
+    <position height="286" width="185" x="2651" y="919"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -12,7 +12,7 @@
   </class>  
   <class id="2" language="java" name="com.abstract_factory.JuniorTeam" project="Assignment2" 
     file="/Assignment2/src/com/abstract_factory/JuniorTeam.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="286" width="185" x="1003" y="1464"/>    
+    <position height="286" width="185" x="2426" y="919"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -21,7 +21,7 @@
   </class>  
   <class id="3" language="java" name="com.abstract_factory.ReserveTeam" project="Assignment2" 
     file="/Assignment2/src/com/abstract_factory/ReserveTeam.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="286" width="185" x="1228" y="1464"/>    
+    <position height="286" width="185" x="2876" y="919"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -30,7 +30,7 @@
   </class>  
   <class id="4" language="java" name="com.abstract_factory.Team" project="Assignment2" 
     file="/Assignment2/src/com/abstract_factory/Team.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="412" width="249" x="1228" y="1790"/>    
+    <position height="412" width="249" x="3082" y="1245"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -39,7 +39,7 @@
   </class>  
   <class id="5" language="java" name="com.abstract_factory.TeamFactory" project="Assignment2" 
     file="/Assignment2/src/com/abstract_factory/TeamFactory.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="285" width="187" x="1236" y="1139"/>    
+    <position height="285" width="187" x="2631" y="594"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -48,537 +48,755 @@
   </class>  
   <class id="6" language="java" name="com.gui.MainMenu" project="Assignment2" 
     file="/Assignment2/src/com/gui/MainMenu.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="340" width="223" x="1463" y="201"/>    
+    <position height="155" width="223" x="1557" y="201"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="7" language="java" name="com.gui.MainMenu.FixtureListener" project="Assignment2" 
-    file="/Assignment2/src/com/gui/MainMenu.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="106" width="224" x="972" y="1139"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="8" language="java" name="com.gui.PlayerPanel" project="Assignment2" 
+  <class id="7" language="java" name="com.gui.PlayerPanel" project="Assignment2" 
     file="/Assignment2/src/com/gui/PlayerPanel.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="898" width="223" x="704" y="201"/>    
+    <position height="353" width="223" x="2960" y="201"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.runnable.Run" project="Assignment2" 
+    file="/Assignment2/src/com/runnable/Run.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="153" x="1557" y="37"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="9" language="java" name="com.runable.Run" project="Assignment2" 
-    file="/Assignment2/src/com/runable/Run.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="124" width="153" x="1463" y="37"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="10" language="java" name="com.singleton.FixtureTreeLimitException" project="Assignment2" 
+  <class id="9" language="java" name="com.singleton.FixtureTreeLimitException" project="Assignment2" 
     file="/Assignment2/src/com/singleton/FixtureTreeLimitException.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="88" width="219" x="744" y="1464"/>    
+    <position height="88" width="219" x="3143" y="919"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="11" language="java" name="com.singleton.Singleton" project="Assignment2" 
+  <class id="10" language="java" name="com.singleton.Singleton" project="Assignment2" 
     file="/Assignment2/src/com/singleton/Singleton.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="124" width="181" x="492" y="1139"/>    
+    <position height="142" width="181" x="3143" y="594"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="12" language="java" name="com.composite.AbstractTask" project="Assignment2" 
+  <class id="11" language="java" name="com.composite.AbstractTask" project="Assignment2" 
     file="/Assignment2/src/com/composite/AbstractTask.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="285" width="186" x="41" y="201"/>    
+    <position height="303" width="186" x="3701" y="201"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="13" language="java" name="com.composite.Composite" project="Assignment2" 
+  <class id="12" language="java" name="com.composite.Composite" project="Assignment2" 
     file="/Assignment2/src/com/composite/Composite.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="232" width="185" x="267" y="1464"/>    
+    <position height="214" width="185" x="3402" y="919"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="14" language="java" name="com.composite.FixtureTree" project="Assignment2" 
+  <class id="13" language="java" name="com.composite.FixtureTree" project="Assignment2" 
     file="/Assignment2/src/com/composite/FixtureTree.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="304" width="287" x="267" y="201"/>    
+    <position height="173" width="287" x="3374" y="201"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="15" language="java" name="com.composite.Leaf" project="Assignment2" 
+  <class id="14" language="java" name="com.composite.Leaf" project="Assignment2" 
     file="/Assignment2/src/com/composite/Leaf.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="250" width="185" x="267" y="1139"/>    
+    <position height="250" width="185" x="3374" y="594"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="16" language="java" name="com.composite.Windoze" project="Assignment2" 
+  <class id="15" language="java" name="com.composite.Windoze" project="Assignment2" 
     file="/Assignment2/src/com/composite/Windoze.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="106" width="140" x="575" y="37"/>    
+    <position height="124" width="140" x="3204" y="37"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="17" language="java" name="com.command.cmdButton" project="Assignment2" 
+  <class id="16" language="java" name="com.command.cmdButton" project="Assignment2" 
     file="/Assignment2/src/com/command/cmdButton.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="142" width="196" x="1699" y="1139"/>    
+    <position height="142" width="196" x="1024" y="594"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="18" language="java" name="com.command.cmdMenu" project="Assignment2" 
+  <class id="17" language="java" name="com.command.cmdMenu" project="Assignment2" 
     file="/Assignment2/src/com/command/cmdMenu.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="142" width="196" x="1463" y="1139"/>    
+    <position height="160" width="196" x="788" y="594"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <interface id="19" language="java" name="com.command.Command" project="Assignment2" 
+  <interface id="18" language="java" name="com.command.Command" project="Assignment2" 
     file="/Assignment2/src/com/command/Command.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="88" width="120" x="1935" y="1464"/>    
+    <position height="88" width="120" x="1049" y="1245"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <interface id="20" language="java" name="com.command.CommandHolder" project="Assignment2" 
+  <interface id="19" language="java" name="com.command.CommandHolder" project="Assignment2" 
     file="/Assignment2/src/com/command/CommandHolder.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="106" width="196" x="1699" y="1464"/>    
+    <position height="106" width="196" x="1022" y="919"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <class id="21" language="java" name="com.command.firstTeamCommand" project="Assignment2" 
+  <class id="20" language="java" name="com.command.firstTeamCommand" project="Assignment2" 
     file="/Assignment2/src/com/command/firstTeamCommand.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="124" width="188" x="2173" y="1139"/>    
+    <position height="124" width="188" x="773" y="919"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="22" language="java" name="com.command.juniorTeamCommand" project="Assignment2" 
+  <class id="21" language="java" name="com.command.juniorTeamCommand" project="Assignment2" 
     file="/Assignment2/src/com/command/juniorTeamCommand.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="124" width="198" x="1935" y="1139"/>    
+    <position height="124" width="198" x="224" y="919"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="23" language="java" name="com.command.reserveTeamCommand" project="Assignment2" 
+  <class id="22" language="java" name="com.command.reserveTeamCommand" project="Assignment2" 
     file="/Assignment2/src/com/command/reserveTeamCommand.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="124" width="208" x="2401" y="1139"/>    
+    <position height="124" width="208" x="504" y="919"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <nesting id="24">    
-    <end type="SOURCE" refId="6"/>    
-    <end type="TARGET" refId="7"/>  
-  </nesting>  
-  <association id="25">    
-    <end type="SOURCE" refId="18" navigable="false">      
-      <attribute id="26" name="menuCommand">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </attribute>      
-      <multiplicity id="27" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="19" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="28">    
-    <end type="SOURCE" refId="14" navigable="false">      
-      <attribute id="29" name="fixtures">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </attribute>      
-      <multiplicity id="30" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="15" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <dependency id="31">    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="4"/>  
-  </dependency>  
-  <association id="32">    
-    <end type="SOURCE" refId="14" navigable="false">      
-      <attribute id="33" name="s1">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </attribute>      
-      <multiplicity id="34" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="11" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <generalization id="35">    
-    <end type="SOURCE" refId="13"/>    
-    <end type="TARGET" refId="15"/>  
-  </generalization>  
-  <realization id="36">    
-    <end type="SOURCE" refId="21"/>    
-    <end type="TARGET" refId="19"/>  
-  </realization>  
-  <association id="37">    
-    <end type="SOURCE" refId="14" navigable="false">      
-      <attribute id="38" name="may">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </attribute>      
-      <multiplicity id="39" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="15" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <generalization id="40">    
+  <class id="23" language="java" name="com.factory_method.FirstTeamManager" project="Assignment2" 
+    file="/Assignment2/src/com/factory_method/FirstTeamManager.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="65" width="156" x="2386" y="1873"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="com.factory_method.JuniorTeamManager" project="Assignment2" 
+    file="/Assignment2/src/com/factory_method/JuniorTeamManager.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="65" width="169" x="2177" y="1873"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="com.factory_method.Manager" project="Assignment2" 
+    file="/Assignment2/src/com/factory_method/Manager.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="136" width="127" x="2238" y="1697"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="com.factory_method.ManagerFactory" project="Assignment2" 
+    file="/Assignment2/src/com/factory_method/ManagerFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="65" width="138" x="2386" y="1245"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="com.factory_method.ReserveTeamManager" project="Assignment2" 
+    file="/Assignment2/src/com/factory_method/ReserveTeamManager.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="65" width="185" x="2582" y="1873"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="com.command.firstTeamButtonCommand" project="Assignment2" 
+    file="/Assignment2/src/com/command/firstTeamButtonCommand.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="83" width="208" x="43" y="594"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="com.command.firstTeamManagerCommand" project="Assignment2" 
+    file="/Assignment2/src/com/command/firstTeamManagerCommand.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="83" width="222" x="2122" y="594"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="com.command.fixturesButtonCommand" project="Assignment2" 
+    file="/Assignment2/src/com/command/fixturesButtonCommand.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="83" width="196" x="552" y="594"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="com.command.juniorTeamButtonCommand" project="Assignment2" 
+    file="/Assignment2/src/com/command/juniorTeamButtonCommand.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="83" width="221" x="291" y="594"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="com.command.juniorTeamManagerCommand" project="Assignment2" 
+    file="/Assignment2/src/com/command/juniorTeamManagerCommand.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="83" width="235" x="1847" y="594"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="com.command.reserveTeamButtonCommand" project="Assignment2" 
+    file="/Assignment2/src/com/command/reserveTeamButtonCommand.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="83" width="236" x="1260" y="594"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="com.command.reserveTeamManagerCommand" project="Assignment2" 
+    file="/Assignment2/src/com/command/reserveTeamManagerCommand.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="83" width="250" x="1557" y="594"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="35" language="java" name="com.gui.ManagerPanel" project="Assignment2" 
+    file="/Assignment2/src/com/gui/ManagerPanel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="60" width="126" x="2238" y="919"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="36">    
     <end type="SOURCE" refId="3"/>    
     <end type="TARGET" refId="5"/>  
   </generalization>  
+  <dependency id="37">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="38">    
+    <bendpoint x="2247" y="1245"/>    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="25"/>  
+  </dependency>  
+  <generalization id="39">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <realization id="40">    
+    <bendpoint x="742" y="919"/>    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="18"/>  
+  </realization>  
   <association id="41">    
-    <end type="SOURCE" refId="6" navigable="false">      
-      <attribute id="42" name="mnuFirstTeam">        
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="42" name="april">        
         <position height="0" width="0" x="0" y="0"/>      
       </attribute>      
       <multiplicity id="43" minimum="0" maximum="1">        
         <position height="0" width="0" x="0" y="0"/>      
       </multiplicity>    
     </end>    
-    <end type="TARGET" refId="18" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
   </association>  
   <association id="44">    
-    <end type="SOURCE" refId="14" navigable="false">      
-      <attribute id="45" name="league">        
-        <position height="0" width="0" x="0" y="0"/>      
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="45" name="jtbmCommand">        
+        <position height="0" width="0" x="98" y="-300"/>      
       </attribute>      
       <multiplicity id="46" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
+        <position height="0" width="0" x="98" y="-300"/>      
       </multiplicity>    
     </end>    
-    <end type="TARGET" refId="15" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
+    <end type="TARGET" refId="31" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
   </association>  
   <association id="47">    
-    <end type="SOURCE" refId="6" navigable="false">      
-      <attribute id="48" name="mnuReserveTeam">        
-        <position height="0" width="0" x="0" y="0"/>      
+    <bendpoint x="1248" y="919"/>    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="48" name="btnCommand">        
+        <position height="0" width="0" x="-1513" y="-2004"/>      
       </attribute>      
       <multiplicity id="49" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
+        <position height="0" width="0" x="-1513" y="-2004"/>      
       </multiplicity>    
     </end>    
     <end type="TARGET" refId="18" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
+    <display labels="false" multiplicity="false"/>  
   </association>  
-  <association id="50">    
-    <end type="SOURCE" refId="6" navigable="false">      
-      <attribute id="51" name="btnFirstTeam">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </attribute>      
-      <multiplicity id="52" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="17" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="53">    
-    <end type="SOURCE" refId="6" navigable="false">      
-      <attribute id="54" name="mnuJuniorTeam">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </attribute>      
-      <multiplicity id="55" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="18" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <dependency id="56">    
-    <end type="SOURCE" refId="9"/>    
+  <dependency id="50">    
+    <end type="SOURCE" refId="8"/>    
     <end type="TARGET" refId="6"/>  
   </dependency>  
+  <dependency id="51">    
+    <bendpoint x="2374" y="594"/>    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="52">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="25"/>  
+  </dependency>  
+  <dependency id="53">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="54">    
+    <bendpoint x="1526" y="594"/>    
+    <bendpoint x="1526" y="919"/>    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="18"/>  
+  </dependency>  
+  <dependency id="55">    
+    <bendpoint x="2493" y="1697"/>    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="27"/>  
+  </dependency>  
+  <generalization id="56">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="25"/>  
+  </generalization>  
   <association id="57">    
-    <end type="SOURCE" refId="11" navigable="false">      
-      <attribute id="58" name="fixtureTree">        
-        <position height="0" width="0" x="0" y="0"/>      
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="58" name="ftmCommand">        
+        <position height="0" width="0" x="-1636" y="828"/>      
       </attribute>      
       <multiplicity id="59" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
+        <position height="0" width="0" x="-1636" y="828"/>      
       </multiplicity>    
     </end>    
-    <end type="TARGET" refId="11" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
+    <end type="TARGET" refId="29" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
   </association>  
-  <association id="60">    
-    <end type="SOURCE" refId="14" navigable="false">      
-      <attribute id="61" name="faCup">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </attribute>      
-      <multiplicity id="62" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="15" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <realization id="63">    
-    <end type="SOURCE" refId="17"/>    
-    <end type="TARGET" refId="20"/>  
-  </realization>  
-  <generalization id="64">    
-    <end type="SOURCE" refId="14"/>    
-    <end type="TARGET" refId="16"/>  
-  </generalization>  
-  <association id="65">    
-    <end type="SOURCE" refId="6" navigable="false">      
-      <attribute id="66" name="btnJuniorTeam">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </attribute>      
-      <multiplicity id="67" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="17" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <dependency id="68">    
-    <bendpoint x="1668" y="1464"/>    
-    <end type="SOURCE" refId="5"/>    
-    <end type="TARGET" refId="4"/>  
+  <dependency id="60">    
+    <bendpoint x="2207" y="1697"/>    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="24"/>  
   </dependency>  
-  <association id="69">    
-    <end type="SOURCE" refId="6" navigable="false">      
-      <attribute id="70" name="team">        
+  <association id="61">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="62" name="parent">        
         <position height="0" width="0" x="0" y="0"/>      
       </attribute>      
-      <multiplicity id="71" minimum="0" maximum="1">        
+      <multiplicity id="63" minimum="0" maximum="1">        
         <position height="0" width="0" x="0" y="0"/>      
       </multiplicity>    
     </end>    
-    <end type="TARGET" refId="5" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
   </association>  
-  <association id="72">    
-    <bendpoint x="584" y="201"/>    
-    <end type="SOURCE" refId="16" navigable="false">      
-      <attribute id="73" name="s1">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </attribute>      
-      <multiplicity id="74" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="11" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <generalization id="75">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="5"/>  
-  </generalization>  
-  <association id="76">    
-    <end type="SOURCE" refId="8" navigable="false">      
-      <attribute id="77" name="team">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </attribute>      
-      <multiplicity id="78" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="5" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <dependency id="79">    
-    <end type="SOURCE" refId="7"/>    
-    <end type="TARGET" refId="10"/>  
-  </dependency>  
-  <generalization id="80">    
-    <end type="SOURCE" refId="15"/>    
-    <end type="TARGET" refId="12"/>  
-  </generalization>  
-  <association id="81">    
-    <end type="SOURCE" refId="14" navigable="false">      
-      <attribute id="82" name="ecl">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </attribute>      
-      <multiplicity id="83" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="15" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <realization id="84">    
-    <end type="SOURCE" refId="23"/>    
-    <end type="TARGET" refId="19"/>  
-  </realization>  
-  <association id="85">    
+  <association id="64">    
+    <bendpoint x="991" y="919"/>    
     <end type="SOURCE" refId="17" navigable="false">      
-      <attribute id="86" name="btnCommand">        
+      <attribute id="65" name="menuCommand">        
+        <position height="0" width="0" x="-1513" y="-2004"/>      
+      </attribute>      
+      <multiplicity id="66" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-1513" y="-2004"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="67">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="26"/>  
+  </dependency>  
+  <association id="68">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="69" name="fixtureTree">        
         <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="70" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="false" multiplicity="true"/>  
+  </association>  
+  <association id="71">    
+    <bendpoint x="3213" y="201"/>    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="72" name="s1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="73" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <realization id="74">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="18"/>  
+  </realization>  
+  <realization id="75">    
+    <bendpoint x="1568" y="919"/>    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="18"/>  
+  </realization>  
+  <realization id="76">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="18"/>  
+  </realization>  
+  <dependency id="77">    
+    <bendpoint x="2395" y="1697"/>    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="23"/>  
+  </dependency>  
+  <association id="78">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="79" name="rtbmCommand">        
+        <position height="0" width="0" x="-776" y="518"/>      
+      </attribute>      
+      <multiplicity id="80" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-776" y="518"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="33" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <realization id="81">    
+    <bendpoint x="1269" y="919"/>    
+    <end type="SOURCE" refId="33"/>    
+    <end type="TARGET" refId="18"/>  
+  </realization>  
+  <association id="82">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="83" name="league">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="84" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="85">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="86" name="fCommand">        
+        <position height="0" width="0" x="-144" y="-158"/>      
       </attribute>      
       <multiplicity id="87" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
+        <position height="0" width="0" x="-144" y="-158"/>      
       </multiplicity>    
     </end>    
-    <end type="TARGET" refId="19" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
+    <end type="TARGET" refId="30" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
   </association>  
-  <association id="88">    
-    <end type="SOURCE" refId="6" navigable="false">      
-      <attribute id="89" name="mnuUpdate">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </attribute>      
-      <multiplicity id="90" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="18" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <realization id="91">    
-    <end type="SOURCE" refId="18"/>    
-    <end type="TARGET" refId="20"/>  
-  </realization>  
-  <dependency id="92">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="4"/>  
+  <dependency id="88">    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="35"/>  
   </dependency>  
-  <association id="93">    
-    <end type="SOURCE" refId="12" navigable="false">      
-      <attribute id="94" name="parent">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </attribute>      
-      <multiplicity id="95" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="15" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="96">    
+  <association id="89">    
+    <bendpoint x="2395" y="594"/>    
+    <bendpoint x="2395" y="919"/>    
     <end type="SOURCE" refId="6" navigable="false">      
-      <attribute id="97" name="mnuExit">        
+      <attribute id="90" name="managerFactory">        
+        <position height="0" width="0" x="-238" y="-781"/>      
+      </attribute>      
+      <multiplicity id="91" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-238" y="-781"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <realization id="92">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="19"/>  
+  </realization>  
+  <realization id="93">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="18"/>  
+  </realization>  
+  <dependency id="94">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="18"/>  
+  </dependency>  
+  <association id="95">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="96" name="s1">        
         <position height="0" width="0" x="0" y="0"/>      
       </attribute>      
-      <multiplicity id="98" minimum="0" maximum="1">        
+      <multiplicity id="97" minimum="0" maximum="1">        
         <position height="0" width="0" x="0" y="0"/>      
       </multiplicity>    
     </end>    
-    <end type="TARGET" refId="18" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
   </association>  
+  <generalization id="98">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="15"/>  
+  </generalization>  
   <association id="99">    
-    <end type="SOURCE" refId="6" navigable="false">      
-      <attribute id="100" name="mnuOpen">        
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="100" name="ecl">        
         <position height="0" width="0" x="0" y="0"/>      
       </attribute>      
       <multiplicity id="101" minimum="0" maximum="1">        
         <position height="0" width="0" x="0" y="0"/>      
       </multiplicity>    
     </end>    
-    <end type="TARGET" refId="18" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
   </association>  
-  <realization id="102">    
-    <end type="SOURCE" refId="22"/>    
-    <end type="TARGET" refId="19"/>  
-  </realization>  
-  <dependency id="103">    
-    <end type="SOURCE" refId="3"/>    
-    <end type="TARGET" refId="4"/>  
+  <dependency id="102">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="9"/>  
   </dependency>  
-  <generalization id="104">    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="5"/>  
-  </generalization>  
-  <dependency id="105">    
-    <bendpoint x="713" y="1139"/>    
-    <bendpoint x="713" y="1464"/>    
-    <end type="SOURCE" refId="8"/>    
-    <end type="TARGET" refId="4"/>  
-  </dependency>  
-  <association id="106">    
-    <end type="SOURCE" refId="14" navigable="false">      
-      <attribute id="107" name="march">        
+  <association id="103">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="104" name="march">        
         <position height="0" width="0" x="0" y="0"/>      
       </attribute>      
-      <multiplicity id="108" minimum="0" maximum="1">        
+      <multiplicity id="105" minimum="0" maximum="1">        
         <position height="0" width="0" x="0" y="0"/>      
       </multiplicity>    
     </end>    
-    <end type="TARGET" refId="15" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="106">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="107" name="jtmCommand">        
+        <position height="0" width="0" x="-1348" y="722"/>      
+      </attribute>      
+      <multiplicity id="108" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-1348" y="722"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="32" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
   </association>  
   <association id="109">    
-    <end type="SOURCE" refId="6" navigable="false">      
-      <attribute id="110" name="btnReserveTeam">        
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="110" name="may">        
         <position height="0" width="0" x="0" y="0"/>      
       </attribute>      
       <multiplicity id="111" minimum="0" maximum="1">        
         <position height="0" width="0" x="0" y="0"/>      
       </multiplicity>    
     </end>    
-    <end type="TARGET" refId="17" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
   </association>  
   <dependency id="112">    
-    <end type="SOURCE" refId="11"/>    
-    <end type="TARGET" refId="10"/>  
+    <bendpoint x="3091" y="919"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="4"/>  
   </dependency>  
-  <association id="113">    
-    <end type="SOURCE" refId="14" navigable="false">      
-      <attribute id="114" name="april">        
+  <generalization id="113">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <generalization id="114">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="25"/>  
+  </generalization>  
+  <dependency id="115">    
+    <bendpoint x="3112" y="594"/>    
+    <bendpoint x="3112" y="919"/>    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <association id="116">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="117" name="ftbmCommand">        
+        <position height="0" width="0" x="440" y="-526"/>      
+      </attribute>      
+      <multiplicity id="118" minimum="0" maximum="1">        
+        <position height="0" width="0" x="440" y="-526"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <realization id="119">    
+    <bendpoint x="452" y="919"/>    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="18"/>  
+  </realization>  
+  <generalization id="120">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="25"/>  
+  </generalization>  
+  <association id="121">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="122" name="btnJuniorTeam">        
+        <position height="0" width="0" x="-508" y="432"/>      
+      </attribute>      
+      <multiplicity id="123" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-508" y="432"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="124">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="125" name="rtmCommand">        
+        <position height="0" width="0" x="-1082" y="626"/>      
+      </attribute>      
+      <multiplicity id="126" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-1082" y="626"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="34" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="127">    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="35"/>  
+  </dependency>  
+  <dependency id="128">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="35"/>  
+  </dependency>  
+  <realization id="129">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="19"/>  
+  </realization>  
+  <realization id="130">    
+    <bendpoint x="1547" y="919"/>    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="18"/>  
+  </realization>  
+  <association id="131">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="132" name="mnuReserveTeam">        
+        <position height="0" width="0" x="-380" y="246"/>      
+      </attribute>      
+      <multiplicity id="133" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-380" y="246"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="134">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="135" name="team">        
         <position height="0" width="0" x="0" y="0"/>      
       </attribute>      
-      <multiplicity id="115" minimum="0" maximum="1">        
+      <multiplicity id="136" minimum="0" maximum="1">        
         <position height="0" width="0" x="0" y="0"/>      
       </multiplicity>    
     </end>    
-    <end type="TARGET" refId="15" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <realization id="137">    
+    <bendpoint x="473" y="919"/>    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="18"/>  
+  </realization>  
+  <realization id="138">    
+    <bendpoint x="1595" y="919"/>    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="18"/>  
+  </realization>  
+  <association id="139">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="140" name="fixtures">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="141" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="142">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <association id="143">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="144" name="team">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="145" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <generalization id="146">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <generalization id="147">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <association id="148">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="149" name="faCup">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="150" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
   </association>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    

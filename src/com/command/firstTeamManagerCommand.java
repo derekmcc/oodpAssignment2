@@ -13,7 +13,7 @@ public class firstTeamManagerCommand implements Command {
 	
 	public firstTeamManagerCommand(JFrame fr) {
 		fr = frame;
-	}//constructor
+	}//end constructor
 	
 	public void Execute() {
 		new ManagerPanel("FirstTeamManager");

@@ -11,7 +11,7 @@ public class reserveTeamButtonCommand implements Command {
 	
 	public reserveTeamButtonCommand(JFrame fr) {
 		fr = frame;
-	}//constructor
+	}//end constructor
 	
 	public void Execute() {
 		TeamFactory team = new ReserveTeam();

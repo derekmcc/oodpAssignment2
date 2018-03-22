@@ -12,7 +12,7 @@ public class firstTeamCommand implements Command {
 	
 	public firstTeamCommand(JFrame fr) {
 		fr = frame;
-	}//constructor
+	}//end constructor
 	
 	public void Execute() {
 		TeamFactory team = new FirstTeam();

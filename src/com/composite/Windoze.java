@@ -20,7 +20,10 @@ public class Windoze extends JFrame {
 				Object obj = new Object();
 				obj = null;
 				s1.setFixtureTree(obj);
-				new MainMenu();
+				//new MainMenu();
+				if (MainMenu.getFrames() == null) {
+					new MainMenu();
+				}//end if
 	    	}//end window closing
 	    });//end windowListener
 	}//end setCloseClick

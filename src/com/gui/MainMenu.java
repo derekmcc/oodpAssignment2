@@ -123,9 +123,6 @@ public class MainMenu extends JFrame implements ActionListener {
 		panel = new JPanel();
 		panel.setLayout(new GridLayout(2,1));
 		
-		JRadioButton btnFixtures = new JRadioButton("Fixtures");
-		btnFixtures.addItemListener(new FixtureListener());
-		
 		JPanel btnPanel = new JPanel();
 		JPanel lblPanel = new JPanel();
 		
@@ -244,17 +241,6 @@ public class MainMenu extends JFrame implements ActionListener {
 	    wrapper.add(panel);
 		return wrapper;
 	}//end rightPanel
-	
-	public class FixtureListener implements ItemListener {
-	    public void itemStateChanged(ItemEvent e) {
-	        try {
-				Singleton fixtureTree = Singleton.getFixtureTree();
-				dispose();
-			} catch (FixtureTreeLimitException e1) {
-				JOptionPane.showMessageDialog(contentPane, "ERROR ONLY ONE instance of the Fixture list can be created","ERROR",JOptionPane.ERROR_MESSAGE);
-			}//end catch
-	    }//end ISC
-	}//end listener
 	
 	@Override
 	public void actionPerformed(ActionEvent e) {

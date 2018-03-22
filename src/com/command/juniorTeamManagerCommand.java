@@ -10,7 +10,7 @@ public class juniorTeamManagerCommand implements Command {
 	
 	public juniorTeamManagerCommand(JFrame fr) {
 		fr = frame;
-	}//constructor
+	}//end constructor
 	
 	public void Execute() {
 		new ManagerPanel("JuniorTeamManager");

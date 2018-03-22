@@ -10,7 +10,7 @@ public class reserveTeamManagerCommand implements Command {
 	
 	public reserveTeamManagerCommand(JFrame fr) {
 		fr = frame;
-	}//constructor
+	}//end constructor
 	
 	public void Execute() {
 		new ManagerPanel("ReserveTeamManager");
